@@ -41,7 +41,7 @@ export function SalesChart() {
       
       <div className="h-80">
         {isClient ? (
-          <ResponsiveContainer width="100%" height="100%">
+          <ResponsiveContainer width="100%\" height="100%">
             <AreaChart data={data}>
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
               <XAxis 
